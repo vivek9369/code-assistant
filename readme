@@ -1,0 +1,31 @@
+# 💻 Code Assistant  
+
+A simple web app that uses the **Google Gemini API** to **explain**, **debug**, or **refactor** code snippets right in your browser.  
+
+---
+
+## 🚀 Features  
+
+- 📝 **Explain code step-by-step**  
+- 🐞 **Find and fix bugs automatically**  
+- 🔧 **Suggest modern refactoring**  
+- 🎨 **Beautiful Markdown rendering** of Gemini’s output  
+- ⏳ **Built-in retry logic** for API rate limits  
+
+---
+
+## 🛠️ Setup  
+
+1. **Clone this repository**  
+
+```bash
+git clone https://github.com/your-username/gemini-code-assistant.git
+cd gemini-code-assistant
+
+---
+
+##  Configure your API key
+
+Open script.js and replace:
+
+const providedApiKey = "Enter Your Gemini API Key Here";

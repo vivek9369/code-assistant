@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Base Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #eef2ff; /* Light Lavender background for the page */
+}
+
+/* Custom scrollbar for better aesthetics */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #818cf8; /* indigo-400 */
+    border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #f1f5f9; /* slate-100 */
+}
+
+/* Common element sizing and transition */
+textarea, #output-panel {
+    min-height: 400px;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Enhanced styling for the output panel content (Markdown rendering) */
+#output-panel pre {
+    background-color: #f3f4f6; /* gray-100 */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e5e7eb;
+}
+#output-panel code {
+    font-family: 'SF Mono', 'Roboto Mono', monospace;
+    font-size: 0.875rem;
+    color: #1f2937; /* dark text for contrast */
+}
+#output-panel h1, #output-panel h2 {
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+    color: #1e3a8a; /* Blue-900 for headings */
+    border-bottom: 2px solid #e0e7ff; /* light indigo separator */
+}
+#output-panel ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+#output-panel li {
+    margin-bottom: 0.25rem;
+}
